@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  background-color: #F8F4D7;
+}
+
 /* Mobile first - GRIDS - index.html */
 .grid {  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
@@ -23,7 +29,7 @@
 .header { grid-area: header; 
   height: 12.4vh;
   /* background-image: url("../img/backgroundHeaderFooter.jpg"); */
-  background-color: #FDF4EC;
+  background-color: #F4DEC2;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -31,7 +37,7 @@
 }
 
 .equipo1 { grid-area: equipo1; 
-  background-color: #FF857C;
+  background-color: #F8F4D7;
   height: 12vh;
   border-radius: 20px;
   padding: 10px;
@@ -48,7 +54,7 @@
 }
 
 .equipo2 { grid-area: equipo2;
-  background-color: #FF857C;
+  background-color: #F8F4D7;
   height: 12vh;
   border-radius: 20px;
   padding: 10px;
@@ -64,7 +70,7 @@
 }
 
 .equipo3 { grid-area: equipo3; 
-  background-color: #FF857C;
+  background-color: #F8F4D7;
   height: 12vh;
   border-radius: 20px;
   padding: 10px;
@@ -80,7 +86,7 @@
 }
 
 .equipo4 { grid-area: equipo4; 
-  background-color: #FF857C;
+  background-color: #F8F4D7;
   height: 12vh;
   border-radius: 20px;
   padding: 10px;
@@ -96,7 +102,7 @@
 }
 
 .equipo5 { grid-area: equipo5; 
-  background-color: #FF857C;
+  background-color: #F8F4D7;
   height: 12vh;
   border-radius: 20px;
   padding: 10px;
@@ -112,7 +118,7 @@
 }
 
 .equipo6 { grid-area: equipo6; 
-  background-color: #FF857C;
+  background-color: #F8F4D7;
   height: 12vh;
   border-radius: 20px;
   padding: 10px;
@@ -128,6 +134,8 @@
 }
 
 .formEnvio { grid-area: formEnvio; 
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 12px;
   background-color: #A2C3DC;
   height: 74.5vh;
   border-radius: 20px;
@@ -139,7 +147,7 @@
 .footer { grid-area: footer; 
   height: 12.5vh;
   /* background-image: url("../img/backgroundHeaderFooter.jpg"); */
-  background-color: #FDF4EC;
+  background-color: #F4DEC2;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -158,23 +166,91 @@
   justify-content: right;
   align-items: center;
   list-style: none;
-  font-size: 16px;
-  font-family: 'Poppins', sans-serif;
-  /* font-weight: 500; */
-  color: rgb(30, 39, 39);
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #E98977;
+  text-decoration: none;
+  transition: 1s;
 }
 
 .nav__link {
   padding: 10px;
 }
 
-.nav__link--active {
-  font-weight: bold;
+.nav__link--active .aNav {
+  font-weight: 900;
+  color: #DC655D;
   padding: 10px;
 }
 
 .aNav {
   text-decoration: none;
+  color: #E98977;
+}
+
+/* Animaciones NAV Highlight*/
+.nav__links .nav__link .aNav:hover, .nav__link--active:hover {
+  color: #8966b3;
+}
+
+/* Animacion Grid - Overlay */
+.overlay {
+  background-color: #8966b3;
+  height: 100%;
+  opacity: 0;
+  transform: translate(0%, -100%);
+  transition: .5s ease;
+  z-index: 1;
+  position: relative;
+  border-radius: 20px;
+  padding: 10px;
+  border: 10px;
+  margin: 1px;
+}
+
+.overlay__title{
+  color: #FDF4EC;
+  font-size: 1.2rem;
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay__description {
+  color: #FDF4EC;
+  font-size: 0.8rem;
+  text-align: center;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Efecto hover para cada equipo */
+.equipo1:hover .overlay{
+  opacity: 1;
+}
+
+.equipo2:hover .overlay{
+  opacity: 1;
+}
+
+.equipo3:hover .overlay{
+  opacity: 1;
+}
+
+.equipo4:hover .overlay{
+  opacity: 1;
+}
+
+.equipo5:hover .overlay{
+  opacity: 1;
+}
+
+.equipo6:hover .overlay{
+  opacity: 1;
 }
 
 /* Configuracion grid, sección About */
@@ -226,7 +302,6 @@
 .gridProductos .productos {
   overflow-y: scroll;
 }
-
 /* Fin configuracion grid, sección Productos */
 
 
