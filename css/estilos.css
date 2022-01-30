@@ -8,3 +8,10 @@
   /* font-family: 'Be Vietnam Pro', sans-serif; */
   background-color: #fdebf7;
 }
+
+.imgEquipos {
+  border-radius: 30px;
+  padding: 5px;
+  border: 5px;
+  margin: 1px;
+}
