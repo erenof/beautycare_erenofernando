@@ -1,0 +1,15 @@
+$textoResaltado: (
+    caracteristicaEquipo1: $colorTexto,
+    caracteristicaEquipo2: $colorTexto,
+    caracteristicaEquipo3: $colorTexto,
+    caracteristicaEquipo4: $colorTexto,
+    caracteristicaEquipo5: $colorTexto,
+    caracteristicaEquipo6: $colorTexto,
+);
+
+@each $frases, $color in $textoResaltado {
+    .#{$frases}{
+        color: $color;
+        font-weight: bold;
+    }
+}

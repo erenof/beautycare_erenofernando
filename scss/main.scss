@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+// Declaro las variables
+@import './variables/colores';
+@import './variables/mixin';
+@import './variables/maps';
+
+@import './secciones/header';
+@import './secciones/footer';
+@import './secciones/body';
+@import './secciones/cards';
+@import './secciones/equipos';
+@import './secciones/index';

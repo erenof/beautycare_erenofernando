@@ -1,0 +1,15 @@
+.card-group{
+    border-radius: 15px;
+}
+
+.card{
+    background-color: $colorCard;
+    margin: 15px;
+    border-radius: 15px;
+    .card-img-top{
+        border-radius: 15px;
+    }
+    .card-body{
+        border-radius: 15px;
+    }
+}

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.caracteristicaEquipo1 {
+  color: #4a4e69;
+  font-weight: bold; }
+
+.caracteristicaEquipo2 {
+  color: #4a4e69;
+  font-weight: bold; }
+
+.caracteristicaEquipo3 {
+  color: #4a4e69;
+  font-weight: bold; }
+
+.caracteristicaEquipo4 {
+  color: #4a4e69;
+  font-weight: bold; }
+
+.caracteristicaEquipo5 {
+  color: #4a4e69;
+  font-weight: bold; }
+
+.caracteristicaEquipo6 {
+  color: #4a4e69;
+  font-weight: bold; }
+
+.navbarHeader {
+  background-color: #fad2e1; }
+
+.navbarFooter {
+  background-color: #fad2e1; }
+
+.body {
+  background-color: #fde2e4; }
+
+.card-group {
+  border-radius: 15px; }
+
+.card {
+  background-color: #f0efeb;
+  margin: 15px;
+  border-radius: 15px; }
+  .card .card-img-top {
+    border-radius: 15px; }
+  .card .card-body {
+    border-radius: 15px; }
+
+.imgEquipo {
+  border-radius: 30px; }
+
+.card-title {
+  color: #22223b;
+  font-size: 18px; }
+
+.card-text {
+  color: #4a4e69;
+  font-size: 14px; }
