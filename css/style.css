@@ -1,37 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
 .caracteristicaEquipo1 {
-  color: #4a4e69;
+  color: #343a40;
   font-weight: bold; }
 
 .caracteristicaEquipo2 {
-  color: #4a4e69;
+  color: #343a40;
   font-weight: bold; }
 
 .caracteristicaEquipo3 {
-  color: #4a4e69;
+  color: #343a40;
   font-weight: bold; }
 
 .caracteristicaEquipo4 {
-  color: #4a4e69;
+  color: #343a40;
   font-weight: bold; }
 
 .caracteristicaEquipo5 {
-  color: #4a4e69;
+  color: #343a40;
   font-weight: bold; }
 
 .caracteristicaEquipo6 {
-  color: #4a4e69;
+  color: #343a40;
   font-weight: bold; }
 
 .navbarHeader {
   background-color: #fad2e1; }
 
+.brandText {
+  font-family: "Lobster", cursive;
+  font-size: 32px;
+  color: #463f3a; }
+
+.liNav {
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  color: #463f3a; }
+
 .navbarFooter {
-  background-color: #fad2e1; }
+  background-color: #fad2e1;
+  align-items: baseline; }
+
+h6 {
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  color: #463f3a; }
 
 .body {
   background-color: #fde2e4; }
@@ -51,10 +71,42 @@
 .imgEquipo {
   border-radius: 30px; }
 
+.h1 {
+  color: #463f3a;
+  font-size: 28px;
+  font-family: "Catamaran", sans-serif; }
+
+.h6 {
+  color: #463f3a;
+  font-size: 18px;
+  font-family: "Catamaran", sans-serif; }
+
+.p {
+  color: #343a40;
+  font-size: 18px;
+  font-family: "Catamaran", sans-serif; }
+
+.li {
+  color: #343a40;
+  font-size: 18px;
+  font-family: "Catamaran", sans-serif; }
+
 .card-title {
-  color: #22223b;
-  font-size: 18px; }
+  color: #463f3a;
+  font-size: 18px;
+  font-family: "Catamaran", sans-serif; }
 
 .card-text {
-  color: #4a4e69;
-  font-size: 14px; }
+  color: #343a40;
+  font-size: 14px;
+  font-family: "Catamaran", sans-serif; }
+
+.h2 {
+  color: #463f3a;
+  font-size: 28px;
+  font-family: "Catamaran", sans-serif; }
+
+.p {
+  color: #463f3a;
+  font-size: 18px;
+  font-family: "Catamaran", sans-serif; }

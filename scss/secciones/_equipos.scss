@@ -1,3 +1,22 @@
 .imgEquipo{
     border-radius: 30px;
 }
+
+.h1{
+    //MIXIN
+    @include fontStyle ($colorTitulo, 28px, $textFont);
+}
+
+.h6{
+    //MIXIN
+    @include fontStyle ($colorTitulo, 18px, $textFont);
+}
+
+.p{
+    //MIXIN
+    @include fontStyle ($colorTexto, 18px, $textFont);
+}
+
+.li{
+    @include fontStyle ($colorTexto, 18px, $textFont);
+}

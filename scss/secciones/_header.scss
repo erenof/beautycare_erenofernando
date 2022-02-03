@@ -1,3 +1,15 @@
 .navbarHeader{
     background-color: $colorHeader;
 }
+
+.brandText{
+    font-family: $brandFont;
+    font-size: 32px;
+    color: $colorTitulo;
+}
+
+.liNav{
+    font-family: $navFont;
+    font-size: 20px;
+    color: $colorTitulo;
+}

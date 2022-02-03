@@ -1,0 +1,9 @@
+.h2{
+    //MIXIN
+    @include fontStyle ($colorTitulo, 28px, $textFont);
+}
+
+.p{
+    //MIXIN
+    @include fontStyle ($colorTitulo, 18px, $textFont);
+}

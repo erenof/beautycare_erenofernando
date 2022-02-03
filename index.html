@@ -7,12 +7,8 @@
     <meta name="description" content="Alquiler y venta de aparatología estetica.">
     <meta name="keyword" content="estetica, aparotologia, equipos, alquiler, venta, beauty, care, cuidado, belleza">
     <title>Beauty Care - Home</title>
-    <!-- Fuente externa de Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./img/logo.png">
+
     <!-- Librería AOS - Animate on scroll, efecto en la sección equipos  -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS Bootstrap -->
@@ -26,22 +22,22 @@
     <nav class="navbar navbar-expand-md navbar-light navbarHeader">
       <div class="container-fluid">
           <img src="./img/logo.png" alt="" width="50" height="50">
-          <a class="navbar-brand abs" href="#">Beauty Care</a>
+          <h1 class="mx-2 mt-1 brandText">Beauty Care</h1>
           <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar">
               <span class="navbar-toggler-icon"></span>
           </button>
           <div class="navbar-collapse collapse text-uppercase" id="collapseNavbar">
               <ul class="navbar-nav ms-auto">
-                  <li class="nav-item active">
+                  <li class="liNav nav-item active">
                       <a class="nav-link" href="./index.html">Home</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="liNav nav-item">
                       <a class="nav-link" href="./pages/equipos.html">Equipos</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="liNav nav-item">
                       <a class="nav-link" href="./pages/faq.html">Faq</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="liNav nav-item">
                     <a class="nav-link" href="./pages/about.html">About</a>
                   </li>
               </ul>
@@ -56,26 +52,33 @@
       <div class="col-8">
         <div class="card-group">
           <div class="card" data-aos="zoom-in">
-            <img class="card-img-top imgEquipos" src="https://picsum.photos/200/98" alt="Imágen equipo1">
+            <img class="card-img-top imgEquipos" src="./img/XTREME-2C-WEB.png" alt="Imágen equipo1">
             <div class="card-body">
-              <h5 class="card-title">Equipo 1</h5>
-              <p class="card-text">Breve explicación del equipo 1.</p>
+              <h5 class="card-title">Body Up® Pro XTREME Max</h5>
+              <p class="card-text">-Pulsos magnéticos aumentados de Ultra Alta Potencia.</p>
+              <p class="card-text">-Tonificá musculos de forma superhumana con la nueva tecnologia XTREME.</p>
+              <p class="card-text">-La artilleria mas pesada en tonificación, con 2 cabezales.</p>
               <a href="./pages/equipos.html#linkEquipo1" class="btn btn-outline-info btn-sm">+ Info</a>
             </div>
           </div>
           <div class="card" data-aos="zoom-in">
-            <img class="card-img-top imgEquipos" src="https://picsum.photos/200/98" alt="Imágen equipo2">
+            <img class="card-img-top imgEquipos" src="./img/XTREME-1C-WEB-1.png" alt="Imágen equipo2">
             <div class="card-body">
-              <h5 class="card-title">Equipo 2</h5>
-              <p class="card-text">Breve explicación del equipo 2.</p>
+              <h5 class="card-title">Body Up® Pro XTREME</h5>
+              <p class="card-text">-Pulsos magnéticos aumentados de Ultra Alta Potencia.</p>
+              <p class="card-text">-Tonificá musculos de forma superhumana con la nueva tecnologia XTREME.</p>
+              <p class="card-text">-La revolución mas disruptiva en la estética.</p>
+
               <a href="./pages/equipos.html#linkEquipo2" class="btn btn-outline-info btn-sm">+ Info</a>
             </div>
           </div>
           <div class="card" data-aos="zoom-in">
-            <img class="card-img-top imgEquipos" src="https://picsum.photos/200/98" alt="Imágen equipo3">
+            <img class="card-img-top imgEquipos" src="./img/cellufinal.png" alt="Imágen equipo3">
             <div class="card-body">
-              <h5 class="card-title">Equipo 3</h5>
-              <p class="card-text">Breve explicación del equipo 3.</p>
+              <h5 class="card-title">Cellu Shockwave Pro</h5>
+              <p class="card-text">- La solución definitiva a la Celulitis</p>
+              <p class="card-text">- No genera hematomas.</p>
+              <p class="card-text">- Resultados desde la primera sesión</p>
               <a href="./pages/equipos.html#linkEquipo3" class="btn btn-outline-info btn-sm">+ Info</a>
             </div>
           </div>
@@ -143,39 +146,61 @@
       <div class="col-8">
         <div class="card-group">
           <div class="card" data-aos="zoom-in">
-            <img class="card-img-top imgEquipos" src="https://picsum.photos/200/98" alt="Imágen equipo 4">
+            <img class="card-img-top imgEquipos" src="./img/AAHIFU.png" alt="Imágen equipo 4">
             <div class="card-body">
-              <h5 class="card-title">Equipo 4</h5>
-              <p class="card-text">Breve explicación del equipo 4.</p>
-              <a href="./pages/equipos.html#linkEquipo4" class="btn btn-outline-info btn-sm">+ Info</a>
+              <h5 class="card-title">Marelli™ Pro HI-FU</h5>
+              <p class="card-text">- Único equipo fabricado en el país</p>
+              <p class="card-text">- El más compacto del mercado.</p>
+              <p class="card-text">- Facial y corporal.</p>
+              <a href="./pages/equipos.html#linkEquipo4" class="align-self-end btn btn-outline-info btn-sm">+ Info</a>
             </div>
           </div>
           <div class="card" data-aos="zoom-in">
-            <img class="card-img-top imgEquipos" src="https://picsum.photos/200/98" alt="Imágen equipo 5">
+            <img class="card-img-top imgEquipos" src="./img/ICEGOLDFINAL.png" alt="Imágen equipo 5">
             <div class="card-body">
-              <h5 class="card-title">Equipo 5</h5>
-              <p class="card-text">Breve explicación del equipo 5.</p>
+              <h5 class="card-title">Marelli™ Ice Gold Pro</h5>
+              <p class="card-text">- Singular y exclusivo sistéma laser de diodo nacional.</p>
+              <p class="card-text">- Engloba 3 longitudes de onda (755nm, 808nm, 1064nm)</p>
+              <p class="card-text">- Las últimas tecnologías Big Spot & Smart Cooling.</p>
               <a href="./pages/equipos.html#linkEquipo5" class="btn btn-outline-info btn-sm">+ Info</a>
             </div>
           </div>
           <div class="card" data-aos="zoom-in">
-            <img class="card-img-top imgEquipos" src="https://picsum.photos/200/98" alt="Imágen equipo 6">
+            <img class="card-img-top imgEquipos" src="./img/cellubyeweb.png" alt="Imágen equipo 6">
             <div class="card-body">
-              <h5 class="card-title">Equipo 6</h5>
-              <p class="card-text">Breve explicación del equipo 6.</p>
+              <h5 class="card-title">CelluBye™</h5>
+              <p class="card-text">-Erradicá la celulitis de forma definitiva.</p>
+              <p class="card-text">-Tecnología de ondas de choque radiales de ultra alta potencia.</p>
+              <p class="card-text">-La única solución real y efectiva para la celulitis.</p>
               <a href="./pages/equipos.html#linkEquipo6" class="btn btn-outline-info btn-sm">+ Info</a>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <section class="row mt-5">
+    </section>
   </main>
   <!-- Pie de página -->
   <footer>
-    <nav class="navbar fixed-bottom navbar-expand-md py-0 navbar-light navbarFooter">
-      <a class="navbar-brand" href="#">
-        <img src="./img/logo.png" width="30" height="30" alt="">
-      </a>
+    <nav class="navbar navbar-expand-md fixed-bottom navbarFooter">
+      <ul class="navbar-nav me-auto">
+        <div>
+          <h6 class="mx-2 mt-1" >Aparotología estética a tu alcance</h6>
+        </div>
+        </div>
+      </ul>
+      <ul class="navbar-nav ms-auto">
+        <li class="mx-1">
+          <a href="https://wa.link/5ban5a" target="_blank"><img src="./img/whatsapp.svg" width="21" height="21" alt="Whatsapp icon"></a>
+        </li>
+        <li class="mx-1">
+          <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.svg" width="21" height="21" alt="Instagram icon"></a>
+        </li>
+        <li class="mx-1">
+          <a href="http://facebook.com" target="_blank"><img src="./img/facebook.svg" width="21" height="21" alt="Facebook icon"></a>
+        </li>
+      </ul>
     </nav>
   </footer>
 <!-- JS Bootstrap JQuery -->
@@ -187,4 +212,4 @@
   AOS.init();
 </script>
 </body>
-</html>sarasa
+</html>

@@ -1,9 +1,10 @@
 .card-title{
     // MIXIN
-    @include fontStyle ($colorTitulo, 18px);
+    @include fontStyle ($colorTitulo, 18px, $textFont);
 }
 
 .card-text{
     // MIXIN
-    @include fontStyle ($colorTexto, 14px);
+    @include fontStyle ($colorTexto, 14px, $textFont);
 }
+

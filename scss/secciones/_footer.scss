@@ -1,3 +1,10 @@
 .navbarFooter{
     background-color: $colorFooter;
+    align-items: baseline;
+}
+
+h6{
+    font-family: $footerFont;
+    font-size: 20px;
+    color: $colorTitulo;
 }
